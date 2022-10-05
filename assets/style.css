@@ -37,7 +37,7 @@ img {
 
 /* uncomment the code below to set the grid */
 
-/*#grid {
+#grid {
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
@@ -57,4 +57,4 @@ body {
 
 #right-column {
 	background: #333;
-}*/
+}
