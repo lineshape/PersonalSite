@@ -18,13 +18,13 @@ $(document).ready(function() {
     inside the curly brackets.
     */
 
-    $('body').click(function(){
-        $(this).css('background', 'yellow');
+    $('a').click(function(){
+        $('body').css('background', 'yellow');
     })
 
     /* random background color from an array */
 
-    // let colors = ['blue', 'red', 'green', 'purple', 'yellow']
+    // let colors = ['blue', 'red', 'green', 'purple', 'yellow', 'white']
     // $('body').click(function(){
     //     var color = colors[Math.floor(Math.random() * colors.length)];
     //     $(this).css('background', color);

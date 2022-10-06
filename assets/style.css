@@ -14,20 +14,26 @@ body {
 p, li {
 	font-size:  15px;
 	line-height: 28px;
+	margin-right: 10px;
 }
 
 /* adjusting spacing */
 
-#left-column {
-	padding: 20px;
+.language {
+	padding: 30px 240px;
+}
+
+
+.container {
+	padding: 40px 240px;
 }
 
 h1, p {
 	margin-bottom:  20px;
 }
 
-ul, ol {
-	margin-left: 20px;
+ul {
+	display: flex;
 }
 
 img {
