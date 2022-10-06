@@ -18,7 +18,7 @@ $(document).ready(function() {
     inside the curly brackets.
     */
 
-    $('a').click(function(){
+    $('p .work-workers').hover(function(){
         $('body').css('background', 'yellow');
     })
 
