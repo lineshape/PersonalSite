@@ -19,13 +19,17 @@ p, li {
 
 /* adjusting spacing */
 
-.language {
-	padding: 30px 240px;
-}
-
 
 .container {
-	padding: 40px 240px;
+	max-width: 768px;
+	margin: 0 auto;
+}
+
+.language {
+	height: 80px;
+	display: flex;
+	align-items: center;
+	
 }
 
 h1, p {

@@ -18,16 +18,41 @@ $(document).ready(function() {
     inside the curly brackets.
     */
 
-    $('p #work-workers').mouseover(function(){
-        $('body').css('background', '#3CFFFF');
-    })
+    // background color event
 
-    $('p #work-workers').mouseout(function(){
+    $('p .work-workers').mouseover(function(){
+        $('body').css('background', '#3CFFFF'); // 시안
+    })
+    $('p .work-workers').mouseout(function(){
         $('body').css('background', '#FFFFFF');
     })
 
-    $('p #work-microworld').hover(function(){
-        $('body').css('background', '#3CFF8A');
+    $('p .work-microworld').mouseover(function(){
+        $('body').css('background', '#FB25FF'); // 마젠타
+    })
+    $('p .work-microworld').mouseout(function(){
+        $('body').css('background', '#FFFFFF');
+    })
+
+    $('p .work-sheti').mouseover(function(){
+        $('body').css('background', '#FF5F5F'); // 다홍
+    })
+    $('p .work-sheti').mouseout(function(){
+        $('body').css('background', '#FFFFFF');
+    })
+
+    $('p .work-elephant').mouseover(function(){
+        $('body').css('background', '#3CFF8A'); // 그린
+    })
+    $('p .work-elephant').mouseout(function(){
+        $('body').css('background', '#FFFFFF');
+    })
+
+    $('p .bookclub').mouseover(function(){
+        $('body').css('background', '#FBFF3C'); // 노랑
+    })
+    $('p .bookclub').mouseout(function(){
+        $('body').css('background', '#FFFFFF');
     })
 
     /* random background color from an array */
