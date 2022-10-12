@@ -18,8 +18,16 @@ $(document).ready(function() {
     inside the curly brackets.
     */
 
-    $('p .work-workers').hover(function(){
-        $('body').css('background', 'yellow');
+    $('p #work-workers').mouseover(function(){
+        $('body').css('background', '#3CFFFF');
+    })
+
+    $('p #work-workers').mouseout(function(){
+        $('body').css('background', '#FFFFFF');
+    })
+
+    $('p #work-microworld').hover(function(){
+        $('body').css('background', '#3CFF8A');
     })
 
     /* random background color from an array */
