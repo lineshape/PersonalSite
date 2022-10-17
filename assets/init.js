@@ -18,68 +18,97 @@ $(document).ready(function() {
     inside the curly brackets.
     */
 
-    // background color event
+    // background-color change
 
     $('p .work-workers').mouseover(function(){
-        $('body').css('background', '#3CFFFF'); // 시안
+        $('body').css('background', '#3CFFFF');
+        $('.grad-left-black').css('opacity', '0');
+        $('.grad-left-white').css('opacity', '100');
+        $('.grad-right-black').css('opacity', '0');
+        $('.grad-right-white').css('opacity', '100'); // 시안
     })
+
     $('p .work-workers').mouseout(function(){
         $('body').css('background', '#FFFFFF');
+        $('.grad-left-black').css('opacity', '100');
+        $('.grad-left-white').css('opacity', '0');
+        $('.grad-right-black').css('opacity', '100');
+        $('.grad-right-white').css('opacity', '0');
     })
 
     $('p .work-microworld').mouseover(function(){
-        $('body').css('background', '#FB25FF'); // 마젠타
+        $('body').css('background', '#FB25FF');
+        $('.grad-left-black').css('opacity', '0');
+        $('.grad-left-white').css('opacity', '100');
+        $('.grad-right-black').css('opacity', '0');
+        $('.grad-right-white').css('opacity', '100'); // 마젠타
     })
     $('p .work-microworld').mouseout(function(){
         $('body').css('background', '#FFFFFF');
+        $('.grad-left-black').css('opacity', '100');
+        $('.grad-left-white').css('opacity', '0');
+        $('.grad-right-black').css('opacity', '100');
+        $('.grad-right-white').css('opacity', '0');
     })
 
     $('p .work-sheti').mouseover(function(){
-        $('body').css('background', '#FF5F5F'); // 다홍
+        $('body').css('background', '#FF5F5F');
+        $('.grad-left-black').css('opacity', '0');
+        $('.grad-left-white').css('opacity', '100');
+        $('.grad-right-black').css('opacity', '0');
+        $('.grad-right-white').css('opacity', '100'); // 다홍
     })
     $('p .work-sheti').mouseout(function(){
         $('body').css('background', '#FFFFFF');
+        $('.grad-left-black').css('opacity', '100');
+        $('.grad-left-white').css('opacity', '0');
+        $('.grad-right-black').css('opacity', '100');
+        $('.grad-right-white').css('opacity', '0');
     })
 
     $('p .work-elephant').mouseover(function(){
-        $('body').css('background', '#3CFF8A'); // 그린
+        $('body').css('background', '#3CFF8A');
+        $('.grad-left-black').css('opacity', '0');
+        $('.grad-left-white').css('opacity', '100');
+        $('.grad-right-black').css('opacity', '0');
+        $('.grad-right-white').css('opacity', '100');
+        $('.elephant').css('top','-50px'); // 그린
     })
     $('p .work-elephant').mouseout(function(){
         $('body').css('background', '#FFFFFF');
+        $('.grad-left-black').css('opacity', '100');
+        $('.grad-left-white').css('opacity', '0');
+        $('.grad-right-black').css('opacity', '100');
+        $('.grad-right-white').css('opacity', '0');
+        $('.elephant').css('top','-700px');
     })
 
     $('p .bookclub').mouseover(function(){
-        $('body').css('background', '#FBFF3C'); // 노랑
+        $('body').css('background', '#FBFF3C');
+        $('.grad-left-black').css('opacity', '0');
+        $('.grad-left-white').css('opacity', '100');
+        $('.grad-right-black').css('opacity', '0');
+        $('.grad-right-white').css('opacity', '100'); // 노랑
     })
     $('p .bookclub').mouseout(function(){
         $('body').css('background', '#FFFFFF');
+        $('.grad-left-black').css('opacity', '100');
+        $('.grad-left-white').css('opacity', '0');
+        $('.grad-right-black').css('opacity', '100');
+        $('.grad-right-white').css('opacity', '0');
     })
 
-    /* random background color from an array */
+    // language toggle
 
-    // let colors = ['blue', 'red', 'green', 'purple', 'yellow', 'white']
-    // $('body').click(function(){
-    //     var color = colors[Math.floor(Math.random() * colors.length)];
-    //     $(this).css('background', color);
-    // });
+    $('.kor').click(function(){
+        $('.eng-intro').css('display', 'none');
+        $('.kor-intro').css('display', 'block');
+    })
 
-    /* add a character to a list */
-
-    // $('li').mouseover(function(){
-    //     $(this).append('👋');
-    // });
-
-    /* make a bug follow your cursor and resize */
-
-    // $('body').append('<div id="follow">🦟</div>');
-    // $(document).on("mousemove", function (event) {
-    //     $('#follow').css({
-    //         'font-size' : event.pageY/10+'px',
-    //         'position' : 'absolute',
-    //         'left' : event.pageX+10+'px',
-    //         'top' : event.pageY+10+'px'
-    //     });
-    // });
+    $('.eng').click(function(){
+        $('.kor-intro').css('display', 'none');
+        $('.eng-intro').css('display', 'block');
+    })
 
 
 });

@@ -7,7 +7,7 @@
 /* adjusting fonts */
 
 body {
-	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
+	font-family: 'Noto Sans KR', sans-serif;
 	transition: background 500ms ease;
 }
 
@@ -19,6 +19,78 @@ p, li {
 
 /* adjusting spacing */
 
+/* .section::before {
+	content: "";
+	position: fixed;
+	height: 100%;
+	width: 10%;
+	background: linear-gradient(to right, white, transparent);
+}
+
+.section::after {
+	content: "";
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 10%;
+	background: linear-gradient(to left, white, transparent);
+} */
+
+.grad-left-black {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 10%;
+	background: linear-gradient(to left, black, transparent);
+	opacity: 100;
+	transition: 500ms ease;
+}
+
+.grad-left-white {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 10%;
+	background: linear-gradient(to left, transparent, white);
+	opacity: 0;
+	transition: 500ms ease;
+}
+
+.grad-left-black {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 10%;
+	background: linear-gradient(to left, transparent, black);
+	opacity: 100;
+	transition: 500ms ease;
+}
+
+.grad-right-white {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 10%;
+	background: linear-gradient(to left, white, transparent);
+	opacity: 0;
+	transition: 500ms ease;
+}
+
+.grad-right-black {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	height: 100%;
+	width: 10%;
+	background: linear-gradient(to left, black, transparent);
+	opacity: 100;
+	transition: 500ms ease;
+}
 
 .container {
 	max-width: 768px;
@@ -32,6 +104,15 @@ p, li {
 	
 }
 
+.kor-intro {
+	position: relative;
+}
+
+.eng-intro {
+	display: none;
+	font-family: 'Lexend', sans-serif;
+}
+
 h1, p {
 	margin-bottom:  20px;
 }
@@ -41,30 +122,9 @@ ul {
 }
 
 img {
-	max-width: 100%;
+	max-width: 80%;
 	height:  auto;
+	position: absolute;
+	top: -700px;
+	transition: all 0.5s ease 0s;
 }
-
-/* uncomment the code below to set the grid */
-/* 
-#grid {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-body {
-	overflow: hidden;
-}
-
-.scroll {
-	padding:  20px;
-	overflow: scroll;
-	height: 100vh;
-}
-
-#left-column {
-}
-
-#right-column {
-	background: #333;
-} */
