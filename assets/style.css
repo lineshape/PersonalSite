@@ -7,7 +7,7 @@
 /* adjusting fonts */
 
 body {
-	font-family: 'Noto Sans KR', sans-serif;
+	font-family: 'Hahmlet', serif;
 	transition: background 500ms ease;
 }
 
@@ -15,6 +15,14 @@ p, li {
 	font-size:  15px;
 	line-height: 28px;
 	margin-right: 10px;
+}
+
+a {
+	font-family: 'Hahmlet', serif;
+	font-weight: 700;
+	text-decoration: none;
+	color: black;
+	font-size: 14px;
 }
 
 /* adjusting spacing */
@@ -98,7 +106,8 @@ p, li {
 }
 
 .language {
-	height: 80px;
+	padding-top: 64px;
+	padding-bottom: 40px;
 	display: flex;
 	align-items: center;
 	
@@ -110,7 +119,8 @@ p, li {
 
 .eng-intro {
 	display: none;
-	font-family: 'Lexend', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
 }
 
 h1, p {
@@ -121,10 +131,28 @@ ul {
 	display: flex;
 }
 
-img {
+
+/* 이미지 */
+
+.elephant {
 	max-width: 80%;
 	height:  auto;
 	position: absolute;
-	top: -700px;
+	top: -999px;
+	transition: all 0.5s ease 0s;
+}
+
+.workers {
+	max-height: 80%;
+	position: absolute;
+	left: -999px;
+	transition: all 0.5s ease 0s;
+}
+
+.sheti {
+	max-height: 60%;
+	position: absolute;
+	top : 200px;
+	left : -999px;
 	transition: all 0.5s ease 0s;
 }

@@ -25,7 +25,9 @@ $(document).ready(function() {
         $('.grad-left-black').css('opacity', '0');
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
-        $('.grad-right-white').css('opacity', '100'); // 시안
+        $('.grad-right-white').css('opacity', '100'); 
+        $('.workers').css('left','500px');
+         // 시안, 일꾼들
     })
 
     $('p .work-workers').mouseout(function(){
@@ -34,6 +36,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '0');
         $('.grad-right-black').css('opacity', '100');
         $('.grad-right-white').css('opacity', '0');
+        $('.workers').css('left','-999px');
     })
 
     $('p .work-microworld').mouseover(function(){
@@ -41,8 +44,9 @@ $(document).ready(function() {
         $('.grad-left-black').css('opacity', '0');
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
-        $('.grad-right-white').css('opacity', '100'); // 마젠타
+        $('.grad-right-white').css('opacity', '100'); // 마젠타, 미시세계체
     })
+
     $('p .work-microworld').mouseout(function(){
         $('body').css('background', '#FFFFFF');
         $('.grad-left-black').css('opacity', '100');
@@ -56,7 +60,8 @@ $(document).ready(function() {
         $('.grad-left-black').css('opacity', '0');
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
-        $('.grad-right-white').css('opacity', '100'); // 다홍
+        $('.grad-right-white').css('opacity', '100');
+        $('.sheti').css('left','700px'); // 다홍, sheti
     })
     $('p .work-sheti').mouseout(function(){
         $('body').css('background', '#FFFFFF');
@@ -64,6 +69,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '0');
         $('.grad-right-black').css('opacity', '100');
         $('.grad-right-white').css('opacity', '0');
+        $('.sheti').css('left','-999px');
     })
 
     $('p .work-elephant').mouseover(function(){
@@ -72,7 +78,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
         $('.grad-right-white').css('opacity', '100');
-        $('.elephant').css('top','-50px'); // 그린
+        $('.elephant').css('top','-50px'); // 그린, 코끼리
     })
     $('p .work-elephant').mouseout(function(){
         $('body').css('background', '#FFFFFF');
@@ -80,17 +86,17 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '0');
         $('.grad-right-black').css('opacity', '100');
         $('.grad-right-white').css('opacity', '0');
-        $('.elephant').css('top','-700px');
+        $('.elephant').css('top','-999px');
     })
 
-    $('p .bookclub').mouseover(function(){
+    $('p .work-weekly').mouseover(function(){
         $('body').css('background', '#FBFF3C');
         $('.grad-left-black').css('opacity', '0');
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
-        $('.grad-right-white').css('opacity', '100'); // 노랑
+        $('.grad-right-white').css('opacity', '100'); // 노랑, 주간생각
     })
-    $('p .bookclub').mouseout(function(){
+    $('p .work-weekly').mouseout(function(){
         $('body').css('background', '#FFFFFF');
         $('.grad-left-black').css('opacity', '100');
         $('.grad-left-white').css('opacity', '0');
