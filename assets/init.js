@@ -94,7 +94,8 @@ $(document).ready(function() {
         $('.grad-left-black').css('opacity', '0');
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
-        $('.grad-right-white').css('opacity', '100'); // 노랑, 주간생각
+        $('.grad-right-white').css('opacity', '100');
+        $('.weekly').css('top','100px'); // 노랑, 주간생각
     })
     $('p .work-weekly').mouseout(function(){
         $('body').css('background', '#FFFFFF');
@@ -102,6 +103,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '0');
         $('.grad-right-black').css('opacity', '100');
         $('.grad-right-white').css('opacity', '0');
+        $('.weekly').css('top','-999px');
     })
 
     // language toggle
