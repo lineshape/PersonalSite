@@ -26,7 +26,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
         $('.grad-right-white').css('opacity', '100'); 
-        $('.workers').css('left','500px');
+        $('.workers').css('bottom','200px');
          // 시안, 일꾼들
     })
 
@@ -36,7 +36,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '0');
         $('.grad-right-black').css('opacity', '100');
         $('.grad-right-white').css('opacity', '0');
-        $('.workers').css('left','-999px');
+        $('.workers').css('bottom','-999px');
     })
 
     $('p .work-microworld').mouseover(function(){
@@ -95,7 +95,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
         $('.grad-right-white').css('opacity', '100');
-        $('.weekly').css('top','100px'); // 노랑, 주간생각
+        $('.weekly').css('left','100px'); // 노랑, 주간생각
     })
     $('p .work-weekly').mouseout(function(){
         $('body').css('background', '#FFFFFF');
