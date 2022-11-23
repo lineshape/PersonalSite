@@ -7,7 +7,9 @@
 /* adjusting fonts */
 
 body {
-	font-family: 'Hahmlet', serif;
+	font-family: 'Eulyoo1945', serif;
+	font-weight: 400;
+	letter-spacing: -0.3px;
 	transition: background 500ms ease;
 }
 
@@ -119,8 +121,10 @@ a {
 
 .eng-intro {
 	display: none;
-	font-family: 'Roboto Slab', serif;
+	font-family: 'Garamond', serif;
 	font-size: 16px;
+	letter-spacing: 0.2px;
+	word-spacing: -3px;
 }
 
 h1, p {

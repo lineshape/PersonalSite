@@ -26,7 +26,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
         $('.grad-right-white').css('opacity', '100'); 
-        $('.workers').css('bottom','200px');
+        $('.workers').css('bottom','100px');
          // 시안, 일꾼들
     })
 
