@@ -165,8 +165,7 @@ ul {
 	height: 70%;
 	position: absolute;
 	display: flex;
-	top: -999px;
-	left: 100px;
+	left: -999px;
 	/* transform: rotate(30deg); */
 	transition: all 0.5s ease 0s;
 }

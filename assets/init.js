@@ -103,7 +103,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '0');
         $('.grad-right-black').css('opacity', '100');
         $('.grad-right-white').css('opacity', '0');
-        $('.weekly').css('top','-999px');
+        $('.weekly').css('left','-999px');
     })
 
     // language toggle
