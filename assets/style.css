@@ -1,30 +1,31 @@
 * {
-	margin:  0px;
-	padding:  0px;
-	box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 /* adjusting fonts */
 
 body {
-	font-family: 'Eulyoo1945', serif;
-	font-weight: 400;
-	letter-spacing: -0.3px;
-	transition: background 500ms ease;
+  font-family: 'Eulyoo1945', serif;
+  font-weight: 400;
+  letter-spacing: -0.3px;
+  transition: background 500ms ease;
 }
 
-p, li {
-	font-size:  15px;
-	line-height: 28px;
-	margin-right: 10px;
+p,
+li {
+  font-size: 15px;
+  line-height: 28px;
+  margin-right: 10px;
 }
 
 a {
-	font-family: 'Hahmlet', serif;
-	font-weight: 700;
-	text-decoration: none;
-	color: black;
-	font-size: 14px;
+  font-family: 'Hahmlet', serif;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
 }
 
 /* adjusting spacing */
@@ -48,124 +49,122 @@ a {
 } */
 
 .grad-left-black {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	height: 100%;
-	width: 10%;
-	background: linear-gradient(to left, black, transparent);
-	opacity: 100;
-	transition: 500ms ease;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 10%;
+  background: linear-gradient(to left, black, transparent);
+  opacity: 100;
+  transition: 500ms ease;
 }
 
 .grad-left-white {
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	height: 100%;
-	width: 10%;
-	background: linear-gradient(to left, transparent, white);
-	opacity: 0;
-	transition: 500ms ease;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 10%;
+  background: linear-gradient(to left, transparent, white);
+  opacity: 0;
+  transition: 500ms ease;
 }
 
 .grad-left-black {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	height: 100%;
-	width: 10%;
-	background: linear-gradient(to left, transparent, black);
-	opacity: 100;
-	transition: 500ms ease;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 10%;
+  background: linear-gradient(to left, transparent, black);
+  opacity: 100;
+  transition: 500ms ease;
 }
 
 .grad-right-white {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	height: 100%;
-	width: 10%;
-	background: linear-gradient(to left, white, transparent);
-	opacity: 0;
-	transition: 500ms ease;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 10%;
+  background: linear-gradient(to left, white, transparent);
+  opacity: 0;
+  transition: 500ms ease;
 }
 
 .grad-right-black {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	height: 100%;
-	width: 10%;
-	background: linear-gradient(to left, black, transparent);
-	opacity: 100;
-	transition: 500ms ease;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  height: 100%;
+  width: 10%;
+  background: linear-gradient(to left, black, transparent);
+  opacity: 100;
+  transition: 500ms ease;
 }
 
 .container {
-	max-width: 768px;
-	margin: 0 auto;
+  max-width: 768px;
+  margin: 0 auto;
 }
 
 .language {
-	padding-top: 64px;
-	padding-bottom: 40px;
-	display: flex;
-	align-items: center;
-	
+  padding-top: 64px;
+  padding-bottom: 40px;
+  display: flex;
+  align-items: center;
 }
 
 .kor-intro {
-	position: relative;
+  position: relative;
 }
 
 .eng-intro {
-	display: none;
-	font-family: 'Garamond', serif;
-	font-size: 16px;
-	letter-spacing: 0.2px;
-	word-spacing: -3px;
+  display: none;
+  font-family: 'Garamond', serif;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  word-spacing: -3px;
 }
 
-h1, p {
-	margin-bottom:  20px;
+h1,
+p {
+  margin-bottom: 20px;
 }
 
 ul {
-	display: flex;
+  display: flex;
 }
-
 
 /* 이미지 */
 
 .elephant {
-	max-width: 80%;
-	height:  auto;
-	position: absolute;
-	top: -999px;
-	transition: all 0.5s ease 0s;
+  max-width: 80%;
+  height: auto;
+  position: absolute;
+  top: -999px;
+  transition: all 0.5s ease 0s;
 }
 
 .workers {
-	max-height: 80%;
-	position: fixed;
-	bottom: -999px;
-	transition: all 0.5s ease 0s;
+  max-height: 80%;
+  position: fixed;
+  bottom: -999px;
+  transition: all 0.5s ease 0s;
 }
 
 .sheti {
-	max-height: 60%;
-	position: absolute;
-	top : 200px;
-	left : -999px;
-	transition: all 0.5s ease 0s;
+  max-height: 60%;
+  position: absolute;
+  top: 200px;
+  left: -999px;
+  transition: all 0.5s ease 0s;
 }
 
 .weekly {
-	height: 70%;
-	position: absolute;
-	display: flex;
-	left: -999px;
-	/* transform: rotate(30deg); */
-	transition: all 0.5s ease 0s;
+  height: 90%;
+  position: absolute;
+  left: -999px;
+  /* transform: rotate(30deg); */
+  transition: all 0.5s ease 0s;
 }

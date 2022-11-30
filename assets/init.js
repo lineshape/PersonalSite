@@ -95,7 +95,7 @@ $(document).ready(function() {
         $('.grad-left-white').css('opacity', '100');
         $('.grad-right-black').css('opacity', '0');
         $('.grad-right-white').css('opacity', '100');
-        $('.weekly').css('left','100px'); // 노랑, 주간생각
+        $('.weekly').css('left','200px'); // 노랑, 주간생각
     })
     $('p .work-weekly').mouseout(function(){
         $('body').css('background', '#FFFFFF');
