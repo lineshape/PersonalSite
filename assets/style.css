@@ -171,6 +171,63 @@ ul {
 
 /* 브레이크 포인트 만들기 */
 
-@media only screen and (max-device-width: 812px) {
-  /* your css goes here */
+@media only screen and (max-device-width: 767px) {
+  .grad-left-black {
+    top: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(to bottom, black, transparent);
+    opacity: 100;
+    transition: 500ms ease;
+  }
+
+  .grad-left-white {
+    top: 0px;
+    left: 0px;
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(to bottom, white, transparent);
+    opacity: 0;
+    transition: 500ms ease;
+  }
+
+  /* .grad-left-black {
+    top: 0px;
+    right: 0px;
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(to left, transparent, black);
+    opacity: 100;
+    transition: 500ms ease;
+  } */
+
+  .grad-right-white {
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(to top, white, transparent);
+    opacity: 0;
+    transition: 500ms ease;
+    display: none;
+  }
+
+  .grad-right-black {
+    position: fixed;
+    bottom: 0;
+    right: 0px;
+    height: 10%;
+    width: 100%;
+    background: linear-gradient(to top, black, transparent);
+    opacity: 100;
+    transition: 500ms ease;
+    display: none;
+  }
+
+  .container {
+    max-width: 320px;
+    margin: 0 auto;
+  }
 }
