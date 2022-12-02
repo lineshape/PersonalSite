@@ -169,6 +169,13 @@ ul {
   transition: all 0.5s ease 0s;
 }
 
+.microworld {
+  height: 80%;
+  position: absolute;
+  top: -999px;
+  transition: all 0.5s ease 0s;
+}
+
 /* 브레이크 포인트 만들기 */
 
 @media only screen and (max-device-width: 767px) {
