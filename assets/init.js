@@ -44,7 +44,7 @@ $(document).ready(function () {
     $('.grad-left-white').css('opacity', '100')
     $('.grad-right-black').css('opacity', '0')
     $('.grad-right-white').css('opacity', '100')
-    $('.microworld').css('top', '50px') // 마젠타, 미시세계체
+    $('.microworld').css('top', '100px') // 마젠타, 미시세계체
   })
 
   $('p .work-microworld').mouseout(function () {
