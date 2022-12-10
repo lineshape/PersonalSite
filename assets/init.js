@@ -35,7 +35,7 @@ $(document).ready(function () {
     $('.grad-left-white').css('opacity', '0')
     $('.grad-right-black').css('opacity', '100')
     $('.grad-right-white').css('opacity', '0')
-    $('.workers').css('bottom', '-999px')
+    $('.workers').css('bottom', '-9999px')
   })
 
   $('p .work-microworld').mouseover(function () {
@@ -53,7 +53,7 @@ $(document).ready(function () {
     $('.grad-left-white').css('opacity', '0')
     $('.grad-right-black').css('opacity', '100')
     $('.grad-right-white').css('opacity', '0')
-    $('.microworld').css('top', '-999px')
+    $('.microworld').css('top', '-9999px')
   })
 
   $('p .work-sheti').mouseover(function () {
@@ -70,7 +70,7 @@ $(document).ready(function () {
     $('.grad-left-white').css('opacity', '0')
     $('.grad-right-black').css('opacity', '100')
     $('.grad-right-white').css('opacity', '0')
-    $('.sheti').css('left', '-999px')
+    $('.sheti').css('left', '-9999px')
   })
 
   $('p .work-elephant').mouseover(function () {
@@ -87,7 +87,7 @@ $(document).ready(function () {
     $('.grad-left-white').css('opacity', '0')
     $('.grad-right-black').css('opacity', '100')
     $('.grad-right-white').css('opacity', '0')
-    $('.elephant').css('top', '-999px')
+    $('.elephant').css('top', '-9999px')
   })
 
   $('p .work-weekly').mouseover(function () {
@@ -104,7 +104,7 @@ $(document).ready(function () {
     $('.grad-left-white').css('opacity', '0')
     $('.grad-right-black').css('opacity', '100')
     $('.grad-right-white').css('opacity', '0')
-    $('.weekly').css('left', '-999px')
+    $('.weekly').css('left', '-9999px')
   })
 
   // language toggle
