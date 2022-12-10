@@ -153,7 +153,7 @@ ul {
   max-width: 80%;
   height: auto;
   position: absolute;
-  top: -9px;
+  top: -9999px;
   transition: all 0.5s ease 0s;
 }
 
@@ -242,6 +242,14 @@ ul {
   .container {
     max-width: 320px;
     margin: 0 auto;
+  }
+
+  .weekly,
+  .workers,
+  .microworld,
+  .elephant,
+  .sheti {
+    display: none;
   }
 }
 
